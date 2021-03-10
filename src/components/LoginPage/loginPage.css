@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+/*--------------------------------------- Main div---------------------------------------*/
+.newMainRegisterationPage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+/*---------------------------- Left vertical navbar section------------------------------- */
+.newLeftSideVerticalNavSection{
+    position: relative;
+    width: 24%;
+    background-color:black;
+    opacity: 0.9;
+    box-shadow: rgb(0 0 0 /6%) 0px 2px 5px 0px;
+    height: 89vh; 
+    color: white; 
+    padding: 50px 20px 20px 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-right: 5px !important;
+}
+.heading{
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+   
+}
+.subHeading{
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+    opacity: 0.5;
+    font-weight: normal;
+}
+.footerHeading{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.footerPara{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.newRightSideInputSection{
+    width: 75%;
+    height: 89vh;
+    padding: 50px 50px 50px 250px;
+}
+.registerationHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.brandLogo,.pageHeading,.pagesubHeading{
+    margin: 0;
+}
+.brandLogo{
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+.pageHeading{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+.pagesubHeading{
+    font-size: 15px;
+    font-weight: 300;
+}
+.pagesubHeading span a{
+    text-decoration: none;
+    color: #3f51b5;
+    font-weight: 400;
+}
+.newb{
+    width: 45%;
+}
+.forgotPass{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.forgotPass a{
+    color: #3f51b5;
+    font-weight: 400;
+    text-decoration: none;
+}
+.newLog{
+    margin-top: 20px;
+}
+.AltLogin{
+    /* font-weight: 300; */
+    text-decoration: none;
+    padding-top: 20px;
+}
